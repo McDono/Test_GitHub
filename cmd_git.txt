@@ -1,15 +1,21 @@
 Ce fichier contient les commandes git de base ainsi que les commandes consoles
 
 COMMANDES CONSOLES:
-cd "nomDuDossier" : se déplacer dans un dossier
+cd "nom_du_dossier" : se déplacer dans un dossier
 cd .. : se déplacer d'un dossier en arrière
-touch "nomDuFichier": créer un fichier
-mkdir "nomDuFichier": créer un dossier
-code "nomDuFichier": ouvre le fichier dans Visual Studio Code
+touch "nom_du_fichier": créer un fichier
+mkdir "nom_du_dossier": créer un dossier
+clear : efface le terminal
+rm "nom_du_fichier" : efface le fichier
+code "nom_du_fichier": ouvre le fichier dans Visual Studio Code
 
 COMMANDES GIT (ecrire "git " avant chaque commandes suivantes):
 init : initialise le dossier courant en tant que repository git
-add "nomDuFichier" : ajoute le fichier à l'index git
+add "nom_du_fichier" : ajoute le fichier à l'index git
 commit : enregistre les fichier indexés en tant que commit (version du projet)
     -a : ajoute au commit tout les fichier précédement suivit qui ont été modifié depuis
     -m "message" : ajoute un commentaire au commit
+status : donne l'etat du repository, des fichiers modifiés, etc..
+log : donne l'historique des commit
+checkout "SHA_du_commit" : permet de se placer au commit identifié par le SHA donné
+checkout master : permet de se replacer au dernier commit
