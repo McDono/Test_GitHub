@@ -22,3 +22,7 @@ checkout master : permet de se replacer au dernier commit
 push "remote" "branche" : enregistre le repository sur GitHub (par defaut : remote = origin et branche = master)
 pull "remote" "branche" : télécharge le repository depuis GitHub sur le PC
 clone "URL_GitHub" : crée une copie du projet identifié par l'URL dans le répertoire courant
+branch : donne la liste des branches existantes dans le repository (l'etoile indique la branche courante)
+branch "nom_de_la_branche" : crée une nouvelle branch
+checkout "nom_de_la_branche" : permet de se placer dans la branche désignée
+checkout -b "nom_de_la_branche" : crée une nouvlele branche et s'y place (regroupement des 2 commandes précédentes)
