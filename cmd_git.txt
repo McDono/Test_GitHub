@@ -20,4 +20,5 @@ log : donne l'historique des commit
 checkout "SHA_du_commit" : permet de se placer au commit identifié par le SHA donné
 checkout master : permet de se replacer au dernier commit
 push "remote" "branche" : enregistre le repository sur GitHub (par defaut : remote = origin et branche = master)
+pull "remote" "branche" : télécharge le repository depuis GitHub sur le PC
 clone "URL_GitHub" : crée une copie du projet identifié par l'URL dans le répertoire courant
