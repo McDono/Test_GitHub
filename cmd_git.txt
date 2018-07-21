@@ -27,3 +27,4 @@ branch : donne la liste des branches existantes dans le repository (l'etoile ind
 branch "nom_de_la_branche" : crée une nouvelle branch
 checkout "nom_de_la_branche" : permet de se placer dans la branche désignée
 checkout -b "nom_de_la_branche" : crée une nouvlele branche et s'y place (regroupement des 2 commandes précédentes)
+merge "nom_de_la_branche" : fusione la branche désignée avec la branche courante
