@@ -31,4 +31,6 @@ checkout -b "nom_de_la_branche" : crée une nouvlele branche et s'y place (regro
 merge "nom_de_la_branche" : fusione la branche désignée avec la branche courante
 blame "nom_du_fichier" : renvoie le contenue du fichier avec l'auteur, la date et le dernier commit de chaque ligne
 show "debut_du_SHA_du_commit" : renvoie les modifications précises effectuées dans ce commit
-
+stash : garde les modifications non commitées en mémoire (dans un buffer)
+stash pop : permet de se replacer à l'endroit où la commande stash a été appelée (restitue les info stockée et ecrase la mémoire temporaire, cad vide le buffer)
+stash apply : garde les modification dans le stash
