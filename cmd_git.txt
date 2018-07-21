@@ -9,6 +9,7 @@ clear : efface le terminal
 rm "nom_du_fichier" : efface le fichier
     -rf "nom_du_dossier" : efface le dossier
 code "nom_du_fichier": ouvre le fichier dans Visual Studio Code
+cat "nom_du_fichier" : renvoie le contenue du fichier
 
 COMMANDES GIT (ecrire "git " avant chaque commandes suivantes):
 init : initialise le dossier courant en tant que repository git
@@ -28,3 +29,6 @@ branch "nom_de_la_branche" : crée une nouvelle branch
 checkout "nom_de_la_branche" : permet de se placer dans la branche désignée
 checkout -b "nom_de_la_branche" : crée une nouvlele branche et s'y place (regroupement des 2 commandes précédentes)
 merge "nom_de_la_branche" : fusione la branche désignée avec la branche courante
+blame "nom_du_fichier" : renvoie le contenue du fichier avec l'auteur, la date et le dernier commit de chaque ligne
+show "debut_du_SHA_du_commit" : renvoie les modifications précises effectuées dans ce commit
+
