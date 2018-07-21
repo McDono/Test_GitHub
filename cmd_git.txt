@@ -19,3 +19,4 @@ status : donne l'etat du repository, des fichiers modifiés, etc..
 log : donne l'historique des commit
 checkout "SHA_du_commit" : permet de se placer au commit identifié par le SHA donné
 checkout master : permet de se replacer au dernier commit
+push "remote" "branche" : enregistre le repository sur GitHub (par defaut : remote = origin et branche = master)
