@@ -7,6 +7,7 @@ touch "nom_du_fichier": créer un fichier
 mkdir "nom_du_dossier": créer un dossier
 clear : efface le terminal
 rm "nom_du_fichier" : efface le fichier
+    -rf "nom_du_dossier" : efface le dossier
 code "nom_du_fichier": ouvre le fichier dans Visual Studio Code
 
 COMMANDES GIT (ecrire "git " avant chaque commandes suivantes):
